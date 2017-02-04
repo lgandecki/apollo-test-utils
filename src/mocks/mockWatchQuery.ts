@@ -2,7 +2,7 @@ import { MockedResponse } from './mockNetworkInterface';
 
 import { mockQueryManager } from './mockQueryManager';
 
-import { ObservableQuery } from 'apollo-client/lib/src/core/ObservableQuery'; // tslint:disable-line
+import { ObservableQuery } from 'apollo-client/core/ObservableQuery'; // tslint:disable-line
 
 export const mockWatchQuery = (...mockedResponses: MockedResponse[]) => {
   const queryManager = mockQueryManager(...mockedResponses);

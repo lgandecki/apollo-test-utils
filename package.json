@@ -32,14 +32,14 @@
     "prepublish": "npm run clean && npm run build"
   },
   "peerDependencies": {
-    "apollo-client": "^0.5.5"
+    "apollo-client": "^0.8.0"
   },
   "devDependencies": {
     "@types/chai": "^3.4.32",
     "@types/mocha": "^2.2.31",
     "@types/node": "^7.0.0",
     "@types/sinon": "^1.16.29",
-    "apollo-client": "^0.7.1",
+    "apollo-client": "^0.8.2",
     "chai": "^3.5.0",
     "chai-as-promised": "^6.0.0",
     "graphql": "^0.8.2",

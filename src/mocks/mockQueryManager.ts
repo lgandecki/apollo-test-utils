@@ -1,6 +1,6 @@
 import {
   QueryManager,
-} from 'apollo-client/lib/src/core/QueryManager';
+} from 'apollo-client/core/QueryManager';
 
 import {
   MockedResponse,
@@ -9,7 +9,7 @@ import {
 
 import {
   createApolloStore,
-} from 'apollo-client/lib/src/store';
+} from 'apollo-client/store';
 
 const defaultReduxRootSelector = (state: any) => state.apollo;
 
