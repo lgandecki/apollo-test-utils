@@ -1,12 +1,4 @@
-import { ApolloClient } from 'apollo-client';
-
-function isApolloClient(client: any): boolean {
-  return client instanceof ApolloClient;
-}
-
-export {
-  isApolloClient
-};
+export { isApolloClient } from './util/isApolloClient';
 
 export {
   createMockFetch,

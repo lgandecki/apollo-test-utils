@@ -3,16 +3,12 @@ import { assert } from 'chai';
 
 import gql from 'graphql-tag';
 
-
 import {
   mockSubscriptionNetworkInterface,
   MockedSubscription,
 } from '../src';
 
-
-
 describe('MockSubscriptionNetworkInterface', () => {
-
   const result1 = {
     result: {
       data: {user: {name: 'Dhaivat Pandya'}},
