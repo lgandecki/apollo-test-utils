@@ -29,10 +29,10 @@ export function observableToPromiseAndSubscription({
     wait = -1,
     errorCallbacks = [],
   }: Options,
-  ...cbs: ResultCallback[]
+  ...cbs: ResultCallback[],
 ): { promise: Promise<any[]>, subscription: Subscription } {
 
-  let subscription: Subscription;
+  let subscription: Subscription = null as never;
   const promise = new Promise((resolve, reject) => {
     let errorIndex = 0;
     let cbIndex = 0;
@@ -97,7 +97,7 @@ export function observableToPromiseAndSubscription({
 
 export function observableToPromise(
   options: Options,
-  ...cbs: ResultCallback[]
+  ...cbs: ResultCallback[],
 ): Promise<any[]> {
   return observableToPromiseAndSubscription(options, ...cbs).promise;
 }

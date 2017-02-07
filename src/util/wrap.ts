@@ -11,7 +11,7 @@ export const wrap = (done: MochaDone, cb: (...args: any[]) => any) => (...args: 
 };
 
 export function withWarning(func: Function, regex: RegExp) {
-  let message: string;
+  let message: string = null as never;
   const oldWarn = console.warn;
 
   console.warn = (m: string) => message = m;
