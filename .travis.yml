@@ -3,7 +3,6 @@ sudo: false
 language: node_js
 
 node_js:
-  - 4
   - 6
 
 cache:
@@ -17,6 +16,6 @@ before_install:
   - npm prune
   - npm install -g coveralls
 
-after_script:
+after_success:
   - npm run coverage
   - coveralls < ./coverage/lcov.info || true
