@@ -9,7 +9,10 @@
     "declaration": true,
     "rootDir": ".",
     "outDir": "dist",
-    "noImplicitAny": false
+    "noImplicitAny": false,
+    "noUnusedParameters": false,
+    "noUnusedLocals": true
+
   },
   "files": [
     "src/index.ts",
