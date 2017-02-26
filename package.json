@@ -1,6 +1,6 @@
 {
   "name": "apollo-test-utils",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "",
   "author": "Kamil Kisiela <kamil.kisiela@gmail.com>",
   "license": "MIT",
@@ -32,22 +32,23 @@
     "prepublish": "npm run clean && npm run build"
   },
   "peerDependencies": {
-    "apollo-client": "^0.5.0"
+    "apollo-client": "^0.8.0"
   },
   "devDependencies": {
     "@types/chai": "^3.4.32",
     "@types/mocha": "^2.2.31",
-    "@types/sinon": "^1.16.29",
-    "apollo-client": "^0.5.5",
+    "apollo-client": "^0.8.0",
     "chai": "^3.5.0",
+    "graphql": "^0.8.2",
+    "graphql-tag": "^1.2.4",
     "istanbul": "^0.4.4",
-    "mocha": "^3.1.2",
-    "remap-istanbul": "^0.7.0",
+    "lodash": "^4.17.2",
+    "mocha": "^3.2.0",
+    "remap-istanbul": "^0.9.0",
     "rimraf": "^2.5.4",
-    "sinon": "^1.17.5",
     "source-map-support": "^0.4.5",
-    "tslint": "^3.15.1",
-    "typed-graphql": "^1.0.2",
-    "typescript": "~2.0.10"
-  }
+    "tslint": "^4.4.2",
+    "typescript": "^2.1.5"
+  },
+  "dependencies": {}
 }

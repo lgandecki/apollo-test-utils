@@ -1,4 +1,3 @@
-
 {
   "compilerOptions": {
     "target": "es5",
@@ -10,10 +9,12 @@
     "declaration": true,
     "rootDir": ".",
     "outDir": "dist",
-    "noImplicitAny": false
+    "noImplicitAny": false,
+    "noUnusedParameters": false,
+    "noUnusedLocals": true
+
   },
   "files": [
-    "typings.d.ts",
     "src/index.ts",
     "tests/index.ts"
   ]
