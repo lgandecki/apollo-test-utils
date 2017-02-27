@@ -11,8 +11,8 @@
     "outDir": "dist",
     "noImplicitAny": false,
     "noUnusedParameters": false,
-    "noUnusedLocals": true
-
+    "noUnusedLocals": true,
+    "skipLibCheck": true
   },
   "files": [
     "src/index.ts",
