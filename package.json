@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "",
   "author": "Kamil Kisiela <kamil.kisiela@gmail.com>",
+  "contributors": ["Jonas Helfer <jonas@helfer.email>"],
   "license": "MIT",
   "main": "./dist/src/index.js",
   "typings": "./dist/src/index.d.ts",
