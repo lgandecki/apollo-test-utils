@@ -10,7 +10,7 @@ import {
 
 import {
   print,
-} from 'graphql-tag/printer';
+} from 'graphql-tag/bundledPrinter';
 
 export function mockNetworkInterfaceWithSchema(options: {schema: GraphQLSchema}): NetworkInterface {
   return {
