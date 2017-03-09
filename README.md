@@ -1,5 +1,7 @@
 # apollo-test-utils
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/apollographql/apollo-test-utils.svg)](https://greenkeeper.io/)
+
 This is a very rudimentary package that currently only exports functions for mocking an Apollo Client network interface. Here's an example for how to use it:
 
 ```js
