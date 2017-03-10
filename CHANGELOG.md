@@ -1,6 +1,6 @@
 # Change log
 
-# 0.2.1
+# 0.2.0
 - Update Apollo Client dependency to 1.0.0-rc.2
 
 # 0.1.1
