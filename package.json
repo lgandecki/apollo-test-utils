@@ -35,7 +35,7 @@
     "prepublish": "npm run clean && npm run build"
   },
   "peerDependencies": {
-    "apollo-client": "^1.0.0-rc.2"
+    "apollo-client": "^1.0.0-rc.5"
   },
   "devDependencies": {
     "@types/chai": "^3.4.32",
