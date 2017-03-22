@@ -41,7 +41,7 @@
     "@types/chai": "^3.4.32",
     "@types/isomorphic-fetch": "0.0.33",
     "@types/mocha": "^2.2.31",
-    "apollo-client": "^0.10.1",
+    "apollo-client": "^1.0.0-rc.6",
     "chai": "^3.5.0",
     "istanbul": "^0.4.4",
     "lodash": "^4.17.2",
