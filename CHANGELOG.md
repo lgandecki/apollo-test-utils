@@ -1,5 +1,8 @@
 # Change log
 
+# 0.2.2
+- Update Apollo Client dev dependency to 1.0.0-rc.6
+
 # 0.2.1
 - Move graphql & co from devDependencies to dependencies
 - Update Apollo Client dependency to 1.0.0-rc.5
