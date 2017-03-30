@@ -5,12 +5,9 @@ import {
 
 import {
   GraphQLSchema,
-  graphql
-} from 'graphql';
-
-import {
+  graphql,
   print,
-} from 'graphql-tag/bundledPrinter';
+} from 'graphql';
 
 export function mockNetworkInterfaceWithSchema(options: {schema: GraphQLSchema}): NetworkInterface {
   return {
