@@ -1,5 +1,12 @@
 # Change log
 
+# 0.3.0
+- Update @types/graphql dependency to 0.9
+- Update graphql-tag to 2.0.0
+
+# 0.2.2
+- Update dependencies
+
 # 0.2.1
 - Move graphql & co from devDependencies to dependencies
 - Update Apollo Client dependency to 1.0.0-rc.5
