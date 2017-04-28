@@ -39,7 +39,7 @@
   },
   "devDependencies": {
     "@types/chai": "^3.4.32",
-    "@types/isomorphic-fetch": "0.0.33",
+    "@types/isomorphic-fetch": "0.0.34",
     "@types/mocha": "^2.2.31",
     "apollo-client": "^1.0.0",
     "chai": "^3.5.0",
