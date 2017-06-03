@@ -1,5 +1,8 @@
 # Change log
 
+# 0.3.2
+- Update graphql-tools to 1.0.0
+
 # 0.3.1
 - Update graphql to 0.10.0
 
