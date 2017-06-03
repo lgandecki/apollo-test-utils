@@ -1,5 +1,8 @@
 # Change log
 
+# 0.3.1
+- Update graphql to 0.10.0
+
 # 0.3.0
 - Update @types/graphql dependency to 0.9
 - Update graphql-tag to 2.0.0
