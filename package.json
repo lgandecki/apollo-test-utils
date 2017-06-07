@@ -14,9 +14,9 @@
     "url": "git+https://github.com/apollographql/apollo-test-utils.git"
   },
   "bugs": {
-    "url": "https://github.com/apollostack/apollo-test-utils/issues"
+    "url": "https://github.com/apollographql/apollo-test-utils/issues"
   },
-  "homepage": "https://github.com/apollostack/apollo-test-utils#readme",
+  "homepage": "https://github.com/apollographql/apollo-test-utils#readme",
   "scripts": {
     "pretest": "npm run build",
     "test": "npm run test-only --",
