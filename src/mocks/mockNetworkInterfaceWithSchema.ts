@@ -9,10 +9,10 @@ import {
   print,
 } from 'graphql';
 
-export function mockNetworkInterfaceWithSchema(options: {schema: GraphQLSchema}): NetworkInterface {
+function mockNetworkInterfaceWithSchema({ schema, root = {}, context = {}}: {schema: GraphQLSchema, root: any, context: any}): NetworkInterface {
   return {
     query(request: Request) {
-    return graphql(options.schema, print(request.query), {}, {}, request.variables, request.operationName);
+    return graphql(schema, print(request.query), root, context, request.variables, request.operationName);
     },
   }
 }
